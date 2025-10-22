@@ -1,0 +1,444 @@
+*{
+margin: 00;
+border: border-box;
+/* jahan kahin bhi hum height aur width denge toh jo usme border baad m denge usi m include hoga,border content area k andar hi include hoga */
+}
+
+.navbar{
+height:60px ;
+background-color: #0f1111;
+color: white;
+display: flex;
+/* main div jo sabse outer m hai usme saare divs ko same horizontal line m laane k liye */
+align-items: center;
+/* main div k saare dics ko center m laane k liye  */
+
+justify-content: space-evenly;
+/* logo,location,searchbar,etc ko evenly set krne k liye */
+}
+
+.navlogo{
+height: 50px;
+width: 100px;
+}
+
+
+.logo{
+background-image: url("amazon_logo.png");
+background-size: cover; 
+
+height: 50px;
+width: 100%;
+
+}
+
+
+ .border:hover{
+
+    border:1.5px solid white ;
+
+ }
+
+
+ /* Box2 */
+
+ .address{
+margin-top: 5px;
+margin-left: 4px;
+
+ }
+
+
+ .para1{
+color:#CCCCCC;
+font-size: 1.0rem
+ }
+
+
+ .para2{
+margin-left: 5px;
+margin-top: 3.5px;
+font-size: 0.80rem; ;
+ }
+
+
+ .add-icon{
+    display: flex;
+ }
+/* location ka logo aur india ko ek line m laane k liye */
+
+.border:hover{
+
+    border:1.5px solid white ;
+
+ }
+
+
+
+ /* Box3 */
+
+
+
+ .nav-search{
+    display: flex;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+  /* input,all option aur search icon ko evenly spread krne k liye */
+
+ }
+
+
+ .nav-search:hover{
+   border: 2px solid orange;
+ }
+
+
+ .search-select{
+background-color: yellow;
+width: 40px;
+text-align: center;
+font-style:inherit;
+font-size: 1rem;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+/* sirf 2 traf hi radius change hua */
+
+border-color: transparent;
+border: none;
+ }
+
+
+ .search-input{
+
+width: 100%;
+font-size: 1.1rem;
+border: none;
+font-style:inherit;
+
+
+ }
+
+
+ .search-icon{
+
+width: 45px;
+display: flex;
+justify-content: center;
+/* horizontally centre laane k liye  */
+align-items: center;
+/* vertically centre m laane k liye */
+font-size: 1.2rem  ;
+background-color: rgb(255, 140, 0);
+
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+
+ }
+
+
+
+/* box4 */
+
+
+ .language{
+background-color: yellow;
+font-size: 12.33;
+
+ }
+
+
+
+ /* box5 */
+
+span{
+   font-size: 0.7rem;
+}
+
+.nav-second{
+   font-size: 1.07rem;
+   font-weight: 700;
+}
+
+
+/* box6 */
+.nav-cart i{
+/* USE OF I HERE- BHALE HI NAV CART M 2 ITEM HAIN FONT SIZE I PE APPLY HOGA JO HTML M I K ANADAR LIKHA HOGA */
+
+font-size: 30px;
+}
+
+.nav-cart{
+font-size: 0.85rem;
+font-weight: 900;
+
+}
+
+
+
+
+/* panel */
+.panel{
+height: 50px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+font-size: 19px;
+font-weight: 300;
+}
+
+.panel-ops p {
+margin-left: 11px;
+   display: inline;
+
+}
+
+.panel-ops{
+   width: 70%;
+
+}
+
+p:hover{
+
+    border:1.5px solid white ;
+
+ }
+
+
+ /* HERO  section */
+
+.hero-section{
+
+background-image: url("hero_image.jpg");
+height: 350px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.hero-mssg{
+   background-color: white;
+   color: black;
+   height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.hero-mssg a{
+   color: red;
+}
+
+
+
+/* Shop section */
+
+.shop-section{
+display: flex;
+justify-content: space-evenly;
+/* har box ko dono side se gap dene k liye */
+background-color: #e2e7e6;
+flex-wrap: wrap;
+}
+
+
+
+
+ .box{
+
+   height: 400px;
+   width: 23%;
+   background-color:white;
+padding: 20px 00px 15px ;
+margin-top: 15px;
+
+ }
+
+.box-image1{
+
+  background-image: url("box1_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+
+}
+
+a{
+   text-decoration: none;
+}
+
+
+
+.content-area{
+margin-left: 1rem;
+   margin-right: 1rem;
+
+
+}
+
+.box-image2{
+
+  background-image: url("box2_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+  
+
+.box-image3{
+
+  background-image: url("box3_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+.box-image4{
+
+  background-image: url("box4_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+
+.box-image5{
+
+  background-image: url("box5_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+
+.box-image6{
+
+  background-image: url("box6_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+
+.box-image7{
+
+  background-image: url("box7_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+.box-image8{
+
+  background-image: url("box8_image.jpg"); 
+ margin: 3px;
+height:  300px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+}
+
+
+/* FOOTER */
+
+
+footer{margin-top: 5px;}
+
+
+
+.foot-panel1{
+   background-color: #37475a;
+   color: white;
+   height: 50px;
+   display: flex;
+ font-size: 0.85rem;
+   justify-content: center;
+  align-items: center;
+}
+a{color: black;
+} 
+
+.foot-panel2{
+
+   background-color: #222f3d;
+   color: white;
+   height: 300px;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+ul a {
+   display: block;
+   color: white;
+ font-size: 0.85rem;
+ margin-top: 9px;
+ color: #dddddd;
+} 
+
+ul p{
+   font-size: 1.2rem;
+}
+
+ul{
+   margin-top: 20px;
+}
+
+
+.foot-panel3{
+background-color: #222f3d;
+border-top: 1.8px solid white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+background-image: url("amazon_logo.png");
+width: 100px;
+
+}
+
+.foot-panel4{
+background-color: #0f1111;
+color: white;
+
+height: 80px;
+font-size: 0.9rem;
+text-align: center;
+}
+
+.foot-panel4 a{color: white;}
+
+.pages{
+
+padding-top: 21.8px;
+}
+
+.copyright{
+
+padding-top: 0.4rem;
+
+}
